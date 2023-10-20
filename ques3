@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>press the button to diplay alert message</h2>
+
+<button onclick="myFunction()">Click</button>
+
+<script>
+function myFunction() {
+  alert("Button clicked");
+}
+</script>
+
+</body>
+</html>
