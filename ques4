@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> form</title>
+    </head>
+    <body>
+        <center>
+        <h2>FORM</h2>
+        <form>
+            email id : <input type="email" placeholder="Enter email ABC@gmail.com" id=" email"></form>
+        </br>
+            password : <input type="password" length="8" id="password"> 
+            <button onclick="yes()">ENTER</button>
+            <h2 id="print"></h2>
+            <h2 id="print1"></h2>
+        </form>
+    </center>
+    </body>
+    <script>
+        let email = "";
+        let password = "";
+        function yes() {
+           
+            document.getElementById("print").innerText = email;
+            document.getElementById("print1").innerText = password;
+        }
+    </script>
+</html>
